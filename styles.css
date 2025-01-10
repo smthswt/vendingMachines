@@ -34,25 +34,9 @@ body {
 
 .coke { background-color: red; }
 .fanta { background-color: orange; }
-.green { background-color: lightgreen; }
-.blue { background-color: blue; }
-.purple { background-color: purple; }
-.green-dark { background-color: green; }
 
 .pocari {
     background: linear-gradient(45deg, blue 50%, white 50%);
-}
-
-.green-stripe {
-    background: linear-gradient(45deg, lightgreen 50%, white 50%);
-}
-
-.yellow-stripe {
-    background: linear-gradient(45deg, yellow 50%, white 50%);
-}
-
-.black-stripe {
-    background: linear-gradient(45deg, black 50%, white 50%);
 }
 
 .divider {
