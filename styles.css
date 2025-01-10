@@ -1,0 +1,104 @@
+body {
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.vending-machine {
+    width: 300px;
+    height: 500px;
+    background-color: red;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    position: relative;
+}
+
+.shelf {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.drink {
+    width: 40px;
+    height: 60px;
+    border-radius: 5px;
+    background-color: white;
+    border: 2px solid black;
+}
+
+.coke { background-color: red; }
+.fanta { background-color: orange; }
+.green { background-color: lightgreen; }
+.blue { background-color: blue; }
+.purple { background-color: purple; }
+.green-dark { background-color: green; }
+
+.pocari {
+    background: linear-gradient(45deg, blue 50%, white 50%);
+}
+
+.green-stripe {
+    background: linear-gradient(45deg, lightgreen 50%, white 50%);
+}
+
+.yellow-stripe {
+    background: linear-gradient(45deg, yellow 50%, white 50%);
+}
+
+.black-stripe {
+    background: linear-gradient(45deg, black 50%, white 50%);
+}
+
+.divider {
+    height: 1px;
+    background-color: #000000;
+}
+
+.display {
+    background-color: yellow;
+    text-align: center;
+    padding: 10px;
+    margin: 20px 0;
+    border-radius: 5px;
+}
+
+.display .smiley {
+    font-size: 24px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+    margin: 20px 0;
+    margin-right: 10px;
+}
+
+.bill-slot {
+    width: 30px;
+    height: 10px;
+    background-color: black;
+    border-radius: 5px;
+}
+
+.coin-slot {
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    border-radius: 50%;
+}
+
+.slot {
+    width: 80%;
+    height: 70px;
+    background-color: gray;
+    margin: 0 auto;
+    border-radius: 5px;
+}
